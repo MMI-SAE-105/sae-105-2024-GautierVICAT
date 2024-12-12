@@ -5,3 +5,37 @@
     padding: 15px;
     color: #F4F4F4;
 }
+.list__link-footer{
+    list-style: none;
+}
+.list__link-footer a{
+    text-decoration: none;
+    color: #F4F4F4;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "stevie-sans", sans-serif;
+}
+.footer__title{
+    font-family: "stevie-sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer__text{
+    font-family: "Nokora", sans-serif; 
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.align-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__icons-list{
+    display: block;
+    display: grid; 
+    justify-items: end;
+}
