@@ -1,0 +1,44 @@
+.hero {
+    padding-top: 75px;
+    position: relative;
+    width: auto; 
+    height: 230px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1C1F4A 0%, transparent 100%); 
+    z-index: 1;
+}
+
+.hero-text {
+    padding: 14px;
+    position: relative;
+    z-index: 2;
+    color: #FAFAFA;
+    font-family: "stevie-sans", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;;
+}

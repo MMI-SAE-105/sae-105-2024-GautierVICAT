@@ -3,9 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : VICAT
+- PRÉNOM : GAUTIER
+- GROUPE : MMI1C2
 - URL du site :
 - URL FIGMA :
 

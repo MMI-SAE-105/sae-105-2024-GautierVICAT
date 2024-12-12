@@ -1,0 +1,40 @@
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    margin: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.date, .location {
+    font-size: 1.5rem;
+    font-family: "Nokora", sans-serif;  
+    font-weight: 300;
+    font-style: normal;
+    font-weight: 150%;
+    color: #000;
+}
+
+.underline {
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px auto;
+}
+.infos__btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #F4F4F4;
+    border: 3px solid #FFEE00;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+.infos__btn:hover {
+    background-color: #FFEE00;
+}
