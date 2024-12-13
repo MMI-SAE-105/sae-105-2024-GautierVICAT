@@ -1,0 +1,10 @@
+.pdf__section{
+    margin: 15px;
+}
+.pdf__title{
+    font-family: "stevie-sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
