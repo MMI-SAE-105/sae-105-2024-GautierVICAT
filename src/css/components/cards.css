@@ -25,11 +25,9 @@
     line-height: 160%;
 }
 .link-card {
-    font-family: "stevie-sans", sans-serif;
     display: block;
     margin-top: 20px;
     text-decoration: none;
-    font-size: 0.9em;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -51,4 +49,12 @@
 .link-card::before {
     content: "\2192";
     margin-right: 8px;
+}
+.btny{
+    font-family: "stevie-sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    color: #000;
 }
