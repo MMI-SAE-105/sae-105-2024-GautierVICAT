@@ -24,3 +24,7 @@
     display: flex;
     justify-self: flex-end;
 }
+.ba{
+    width: 100%;
+    height: auto;
+}
