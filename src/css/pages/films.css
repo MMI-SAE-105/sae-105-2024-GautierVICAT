@@ -1,0 +1,26 @@
+.container__film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.title__film{
+    font-family: "stevie-sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+.text__film{
+    font-family: "Nokora, sans-serif;";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.btn-film{
+    width: 100px;
+    display: flex;
+    justify-self: flex-end;
+}
